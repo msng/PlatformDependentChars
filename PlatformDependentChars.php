@@ -1,5 +1,5 @@
 <?php
-class PlatformDependent {
+class PlatformDependentChars {
 	static public function check($str, $input_encoding = false, $to_encoding = 'SJIS') {
 		if (! $input_encoding) {
 			$input_encoding = mb_internal_encoding();
