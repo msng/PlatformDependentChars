@@ -22,7 +22,6 @@ class PlatformDependentChars {
 		if ($mimeName = mb_preferred_mime_name('SJIS')) {
 			$aliases[] = $mimeName;
 		}
-		print_r($aliases);
 		return $aliases;
 	}
 
